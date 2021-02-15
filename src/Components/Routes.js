@@ -8,6 +8,7 @@ import Services from './Services';
 import Navbar from './Navbar/containers/index';
 import Profile from './profile/containers/index';
 import Login from './Login/containers/index';
+import Table from './Table/index';
 const Routes = () => {
     return (
         <BrowserRouter>
@@ -19,6 +20,8 @@ const Routes = () => {
                 <Route exact path='/profile' component={Profile} /> 
                 <Route exact path='/services' component={Services} /> 
                 <Route exact path='/login' component={Login} /> 
+                <Route exact path='/table' component={Table} /> 
+
 
             </Switch>
         </BrowserRouter>
